@@ -170,7 +170,8 @@ https://youtu.be/4XedfXtPxLQ?si=3TwH9hjin6aIauR1
 
 Project screenshots are available in the `/screenshots` directory.
 
-<img width="1195" height="896" alt="iot" src="https://github.com/user-attachments/assets/bba97cee-1141-432d-b2eb-538d75490ea6" />
+<img width="1195" height="789" alt="iot" src="https://github.com/user-attachments/assets/32033bc3-2f49-4e12-9506-13c108f5320e" />
+
 
 ---
 
