@@ -1,0 +1,6 @@
+web-app/Sortify Waste Segeration Website/web-app/.env.local
+web-app/Sortify Waste Segeration Website/web-app/node_modules/
+web-app/Sortify Waste Segeration Website/web-app/.vscode/
+
+__MACOSX/
+.DS_Store
