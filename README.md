@@ -156,11 +156,13 @@ The system consists of three layers:
 
 ---
 
-## 🎥 Project Demonstration
+📚 Reference
 
-Watch the complete project demonstration:
+The following video was used as a reference during the development and implementation of this project:
 
 https://youtu.be/4XedfXtPxLQ?si=3TwH9hjin6aIauR1
+
+
 
 ---
 
