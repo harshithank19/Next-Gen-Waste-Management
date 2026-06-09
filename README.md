@@ -52,7 +52,7 @@ The system is divided into three layers:
 ### 👤 User Dashboard
 - Register/login via Supabase
 - View live segregation graphs (ThingSpeak)
-- Interactive bin location map (Leaflet.js)
+- Interactive bin location map 
 - Submit feedback and issues
 - Reward checklist system for eco-friendly habits
 
