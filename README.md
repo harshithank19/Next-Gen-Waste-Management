@@ -197,9 +197,9 @@ This project contributes towards building cleaner, smarter, and more sustainable
 
 ## 👩‍💻 Development Team
 
-**Harshitha N K (Team Lead)
-Swathi K N
-Swara Shetty M
+**Harshitha N K (Team Lead),
+Swathi K N,
+Swara Shetty M,
 Shreya N**
 
 Computer Science & Engineering
