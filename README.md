@@ -9,7 +9,7 @@ An IoT-powered smart waste management platform that unites sensor-enabled bins, 
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 
-> 📌 **SDG 11: Sustainable Cities and Communities** — VTU Major Project | Global Academy of Technology, Bengaluru | 2025–26
+> 📌 **SDG 11: Sustainable Cities and Communities** — Major Project, 2025–26
 
 ---
 
