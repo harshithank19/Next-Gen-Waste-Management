@@ -1,122 +1,86 @@
 # ♻️ Next-Generation Waste Management: A Smart, Sensor-Based and Community-Driven Approach
 
-## 🏆 Achievement
+An IoT-powered smart waste management platform that unites sensor-enabled bins, cloud-based data storage, and a role-based web dashboard to optimize urban waste collection. 
 
-🥇 **1st Place – College Project Expo**
+🥇 **1st Place – College-Level Project Expo**
 
 ## 📌 Overview
 
-**Sortify** is an IoT-powered smart waste management system designed to automate waste segregation, enable real-time bin monitoring, and improve waste collection efficiency.
+Traditional waste systems lack real-time monitoring and citizen engagement, leading to overflowing bins and rising operational costs. Sortify solves this by combining:
+
+🗑️ IoT smart bins that auto-segregate waste into wet, dry, and metallic categories
+☁️ ThingSpeak cloud for real-time sensor data visualization
+📲 GSM alerts to notify drivers when bins are full
+🌐 Role-based web dashboards for Admin, User, and Driver
+🏆 Reward mechanism to encourage responsible citizen waste behavior
 
 The system combines hardware-based waste detection, cloud monitoring, GSM notifications, and a role-based web application to create a complete smart-city waste management solution.
 
 The project promotes cleaner cities, efficient resource utilization, and active community participation through technology.
 
----
 
-## 🚀 Features
+**⚙️ System Architecture**
 
-### Smart Waste Segregation
+The system is divided into three layers:
+IoT Hardware Layer → Cloud Layer → Web Dashboard Layer
+ComponentRole Arduino UNOReads sensors, controls motors, uploads dataIR SensorDetects incoming wasteRaindrop SensorIdentifies wet wasteProximity SwitchDetects metallic wasteUltrasonic SensorMeasures bin fill levelServo + Stepper MotorsRoutes waste to correct compartmentGSM ModuleSends SMS alert to driver when bin is fullThingSpeakStores and visualizes real-time sensor dataSupabaseBackend DB for users, drivers, feedback, auth
 
-* Automatic waste classification
-* Detects:
+**🌐 Web App – Sortify (3 Role-Based Dashboards)**
 
-  * Wet Waste
-  * Dry Waste
-  * Metallic Waste
-* Sensor-based segregation mechanism
+**👤 User Dashboard**
 
-### Real-Time Bin Monitoring
+Register/login via Supabase
+View live segregation graphs (ThingSpeak)
+Interactive bin location map (Leaflet.js)
+Submit feedback and issues
+Reward checklist system for eco-friendly habits
 
-* Ultrasonic sensor measures bin fill level
-* Live monitoring through ThingSpeak Cloud
-* Real-time gauge and graph visualizations
+**🛡️ Admin Dashboard**
 
-### Driver Alert System
+Monitor real-time bin-level gauges (ThingSpeak)
+Create and manage driver accounts (Supabase)
+View all user-submitted feedback
 
-* GSM-based SMS notifications
-* Instant alerts when bins reach full capacity
-* Enables timely waste collection
+**🚛 Driver Dashboard**
 
-### Community Participation
+View live bin-level gauges
+Receive SMS alerts via GSM module when bins are full
+Confirm collection via web interface
 
-* Citizen feedback system
-* Reward-based engagement checklist
-* Environmental awareness content
+**🛠️ Tech Stack**
 
-### Role-Based Dashboard System
-
-#### Admin Dashboard
-
-* Monitor smart bins
-* View live ThingSpeak data
-* Create and manage drivers
-* View citizen feedback
-
-#### User Dashboard
-
-* Register/Login
-* View waste segregation analytics
-* Interactive bin location map
-* Submit feedback
-* Track rewards
-
-#### Driver Dashboard
-
-* View assigned bins
-* Monitor fill levels
-* Receive SMS alerts
-
----
-
-## 🛠 Tech Stack
-
-### Frontend
-
-* React.js
-* JavaScript
-* HTML5
-* CSS3
-* Tailwind CSS
-* Leaflet.js
-* OpenStreetMap
-
-### Backend
-
-* Node.js
-* Express.js
-
-### Database & Authentication
-
-* Supabase
-* Supabase Auth
-
-### IoT & Cloud
-
-* Arduino UNO
-* ThingSpeak Cloud
-* GSM Module
-
----
-
-## 🔧 Hardware Components
-
-* Arduino UNO
-* Ultrasonic Sensor
-* IR Sensor
-* Raindrop Sensor
-* Metallic Proximity Sensor
-* Servo Motor
-* Stepper Motor
-* GSM Module
-* Jumper Wires
-* Battery Pack
+**Hardware**: Arduino UNO, IR Sensor, Raindrop Sensor, Proximity Switch, Ultrasonic Sensor, Servo Motor, Stepper Motor, GSM Module, Jumper Wires
+**Frontend**: HTML5, CSS3, JavaScript, React, ThingSpeak Widgets
+**Backend**: Node.js, Supabase (Auth + Database), ThingSpeak IoT Cloud
+**Tools**: Arduino IDE, VS Code
 
 Most hardware components were sourced through Amazon and local electronics suppliers.
 
----
+**📁 Repository Structure**
 
-## ⚙️ System Workflow
+next-gen-waste-management/
+├── arduino/               ← Arduino .ino firmware files
+├── web-app/               ← Sortify web application (React + Node.js)
+│   ├── src/
+│   ├── api/
+│   ├── public/
+│   └── .env.local.example
+├── docs/                  ← Full project report
+├── media/
+│   ├── photos/            ← Hardware prototype images
+│   └── demo/              ← Demo video of working model
+├── .gitignore
+└── README.md
+
+**🚀 How to Run (Web App)**
+
+bashcd web-app
+npm install
+cp .env.local.example .env.local
+# Add your Supabase credentials to .env.local
+npm run dev
+
+**⚙️ System Workflow**
 
 1. User throws waste into the smart bin.
 2. Sensors identify the waste type.
@@ -130,9 +94,8 @@ Most hardware components were sourced through Amazon and local electronics suppl
    * Driver receives notification.
 8. Dashboard users can monitor waste statistics in real time.
 
----
 
-## 📊 Architecture
+**📊 Architecture**
 
 The system consists of three layers:
 
@@ -154,48 +117,22 @@ The system consists of three layers:
 * User Dashboard
 * Driver Dashboard
 
----
 
-📚 Reference
+**📸 Screenshots**
 
-The following video was used as a reference during the development and implementation of this project:
-
-https://youtu.be/4XedfXtPxLQ?si=3TwH9hjin6aIauR1
-
-
-
----
-
-## 📸 Screenshots
-
-Project screenshots are available in the `/screenshots` directory.
+Project demo and screenshots are available in the `/media` & `/screenshots` directory.
 
 <img width="1195" height="789" alt="iot" src="https://github.com/user-attachments/assets/32033bc3-2f49-4e12-9506-13c108f5320e" />
 
 
----
+**🏆 Achievements**
 
-## 📂 Project Structure
+🥇 1st Place – College-Level Project Expo (7th Semester Major Project)
+Aligned with UN SDG 11: Sustainable Cities and Communities
+Plagiarism score: 4% (Turnitin verified)
 
-```text
-Project Report/
-arduino/
-media/
-screenshots/
-web-app/
-```
 
----
-
-## 🌍 Sustainable Development Goal (SDG)
-
-**SDG 11 – Sustainable Cities and Communities**
-
-This project contributes towards building cleaner, smarter, and more sustainable urban environments through intelligent waste management.
-
----
-
-## 👩‍💻 Development Team
+**👩‍💻 Development Team**
 
 **Harshitha N K (Team Lead),
 Swathi K N,
@@ -205,7 +142,10 @@ Shreya N**
 Computer Science & Engineering
 Global Academy of Technology
 
----
+[GitHub](https://github.com/harshithank19)
+
+This project is developed for academic and research purposes
+
 
 ## 📜 License
 
