@@ -19,11 +19,10 @@ The system combines hardware-based waste detection, cloud monitoring, GSM notifi
 The project promotes cleaner cities, efficient resource utilization, and active community participation through technology.
 
 
-**⚙️ System Architecture**
-
+⚙️ System Architecture
 The system is divided into three layers:
 IoT Hardware Layer → Cloud Layer → Web Dashboard Layer
-ComponentRole Arduino UNOReads sensors, controls motors, uploads dataIR SensorDetects incoming wasteRaindrop SensorIdentifies wet wasteProximity SwitchDetects metallic wasteUltrasonic SensorMeasures bin fill levelServo + Stepper MotorsRoutes waste to correct compartmentGSM ModuleSends SMS alert to driver when bin is fullThingSpeakStores and visualizes real-time sensor dataSupabaseBackend DB for users, drivers, feedback, auth
+ComponentRoleArduino UNOReads sensors, controls motors, uploads dataIR SensorDetects incoming wasteRaindrop SensorIdentifies wet wasteProximity SwitchDetects metallic wasteUltrasonic SensorMeasures bin fill levelServo + Stepper MotorsRoutes waste to correct compartmentGSM ModuleSends SMS alert to driver when bin is fullThingSpeakStores and visualizes real-time sensor dataSupabaseBackend DB for users, drivers, feedback, auth
 
 **🌐 Web App – Sortify (3 Role-Based Dashboards)**
 
