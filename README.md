@@ -148,8 +148,8 @@ A working demonstration of the Sortify system is available in the `media/demo/` 
 ## 👥 Development Team
 
 Harshitha N K – Team Lead  
-Swathi K N 
-Swara Shetty M 
+Swathi K N                
+Swara Shetty M             
 Shreya N
 
 [GitHub](https://github.com/harshithank19)
