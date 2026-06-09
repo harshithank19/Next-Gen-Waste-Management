@@ -170,6 +170,13 @@ https://youtu.be/4XedfXtPxLQ?si=3TwH9hjin6aIauR1
 
 Project screenshots are available in the `/screenshots` directory.
 
+<img width="2160" height="3840" alt="IMG-20251111-WA0025" src="https://github.com/user-attachments/assets/cb140759-6aa6-447d-a595-e122147f3f30" />
+
+<img width="720" height="1280" alt="IMG-20251111-WA0022" src="https://github.com/user-attachments/assets/e05b58be-b320-480f-b867-8c8a7c86fb29" />
+
+
+
+
 ---
 
 ## 📂 Project Structure
